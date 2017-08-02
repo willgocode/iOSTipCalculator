@@ -91,17 +91,23 @@ class TipViewController: UIViewController {
 		}
 		
 		let total = bill + tip
+
+		let numberFormatter = NumberFormatter()
+		numberFormatter.numberStyle = .currency
+		let tipAmount = numberFormatter.string(from: NSNumber(value: tip))
+		let totalAmount = numberFormatter.string(from: NSNumber(value: total))
+		let billAmount = numberFormatter.string(from: NSNumber(value: bill))
 		
 		let currentTime = Date.init()
-		userDefaults.set(tip, forKey: "savedTip")
-		userDefaults.set(bill, forKey: "savedBill")
-		userDefaults.set(total, forKey: "savedTotal")
+		userDefaults.set(tipAmount, forKey: "savedTip")
+		userDefaults.set(billAmount, forKey: "savedBill")
+		userDefaults.set(totalAmount, forKey: "savedTotal")
 		userDefaults.set(currentTime, forKey: "lastUpdated")
-		
+	
 		userDefaults.synchronize()
-		print("saved")
-		tipLabel.text = String(format: "$%.2f", tip)
-		totalLabel.text = String(format: "$%.2f", total)
+		
+		tipLabel.text = tipAmount!
+		totalLabel.text = totalAmount!
 	}
 	
 	@IBAction func returnToMain(segue: UIStoryboardSegue) {
