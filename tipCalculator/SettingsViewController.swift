@@ -14,7 +14,11 @@ class SettingsViewController: UIViewController {
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-
+		if let defaultTip = userDefaults.object(forKey: "defaultTip") {
+			tipField.placeholder = String(describing: defaultTip)
+		}
+		tipField.becomeFirstResponder()
+		//tipField.placeholder = String(describing: userDefaults.object(forKey: "defaultTip")!)
         // Do any additional setup after loading the view.
     }
 

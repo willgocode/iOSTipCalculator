@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "55864E4E8F38219F3972709A32B518CDD00FA041",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55864E4E8F38219F3972709A32B518CDD00FA041" : 9223372036854775807,
+    "AD3C459ABEBB18F6AB66C97F68B0C66B45BC0CA9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4B6C94CC-96DA-46E6-9FC0-8C140FFEA169",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55864E4E8F38219F3972709A32B518CDD00FA041" : "iOSTipCalculator\/",
+    "AD3C459ABEBB18F6AB66C97F68B0C66B45BC0CA9" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tipCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tipCalculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:willgocode\/iOSTipCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55864E4E8F38219F3972709A32B518CDD00FA041"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:willgocode\/iOSApps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD3C459ABEBB18F6AB66C97F68B0C66B45BC0CA9"
+    }
+  ]
+}

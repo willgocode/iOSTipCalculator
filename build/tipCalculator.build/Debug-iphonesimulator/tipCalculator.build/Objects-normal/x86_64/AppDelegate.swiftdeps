@@ -15,14 +15,22 @@ provides-dynamic-lookup:
 - "window"
 depends-top-level:
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
+- !private "UIColor"
+- !private "UINavigationBar"
 - "UIResponder"
+- !private "UITextField"
 - "UIWindow"
 depends-member:
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UINavigationBar"]
+- !private ["Ps9AnyObject", "UITextField"]
+- !private ["Ps9AnyObject", "appearance"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidEnterBackground"]
@@ -35,12 +43,18 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillEnterForeground"]
 - ["Ps9AnyObject", "applicationWillResignActive"]
 - ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "barTintColor"]
+- !private ["Ps9AnyObject", "black"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keyboardAppearance"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C13tipCalculator11AppDelegate", "Bool"]
 - ["C13tipCalculator11AppDelegate", "UIApplication"]
 - ["C13tipCalculator11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- !private ["C13tipCalculator11AppDelegate", "UIColor"]
+- !private ["C13tipCalculator11AppDelegate", "UINavigationBar"]
+- !private ["C13tipCalculator11AppDelegate", "UITextField"]
 - ["C13tipCalculator11AppDelegate", "UIWindow"]
 - ["C13tipCalculator11AppDelegate", "application"]
 - ["C13tipCalculator11AppDelegate", "applicationDidBecomeActive"]
@@ -57,6 +71,13 @@ depends-member:
 - ["C13tipCalculator11AppDelegate", "deinit"]
 - ["C13tipCalculator11AppDelegate", "init"]
 - ["C13tipCalculator11AppDelegate", "window"]
+- !private ["PSo15CALayerDelegate", "appearance"]
+- !private ["PSo15CALayerDelegate", "barTintColor"]
+- !private ["PSo15CALayerDelegate", "keyboardAppearance"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UINavigationBar"]
+- !private ["Ps7CVarArg", "UITextField"]
+- !private ["Ps7CVarArg", "appearance"]
 - ["Ps7CVarArg", "application"]
 - ["Ps7CVarArg", "applicationDidBecomeActive"]
 - ["Ps7CVarArg", "applicationDidEnterBackground"]
@@ -69,9 +90,16 @@ depends-member:
 - ["Ps7CVarArg", "applicationWillEnterForeground"]
 - ["Ps7CVarArg", "applicationWillResignActive"]
 - ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "barTintColor"]
+- !private ["Ps7CVarArg", "black"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keyboardAppearance"]
 - ["Ps7CVarArg", "window"]
 - ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UINavigationBar"]
+- !private ["Ps28CustomDebugStringConvertible", "UITextField"]
+- !private ["Ps28CustomDebugStringConvertible", "appearance"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
@@ -84,9 +112,16 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "barTintColor"]
+- !private ["Ps28CustomDebugStringConvertible", "black"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keyboardAppearance"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UINavigationBar"]
+- !private ["Ps23CustomStringConvertible", "UITextField"]
+- !private ["Ps23CustomStringConvertible", "appearance"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -99,9 +134,16 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
 - ["Ps23CustomStringConvertible", "applicationWillResignActive"]
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "barTintColor"]
+- !private ["Ps23CustomStringConvertible", "black"]
 - !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keyboardAppearance"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UINavigationBar"]
+- !private ["Ps9Equatable", "UITextField"]
+- !private ["Ps9Equatable", "appearance"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
 - ["Ps9Equatable", "applicationDidEnterBackground"]
@@ -114,9 +156,17 @@ depends-member:
 - ["Ps9Equatable", "applicationWillEnterForeground"]
 - ["Ps9Equatable", "applicationWillResignActive"]
 - ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "barTintColor"]
+- !private ["Ps9Equatable", "black"]
+- !private ["Ps9Equatable", "dark"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "keyboardAppearance"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UINavigationBar"]
+- !private ["Ps8Hashable", "UITextField"]
+- !private ["Ps8Hashable", "appearance"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
 - ["Ps8Hashable", "applicationDidEnterBackground"]
@@ -129,13 +179,26 @@ depends-member:
 - ["Ps8Hashable", "applicationWillEnterForeground"]
 - ["Ps8Hashable", "applicationWillResignActive"]
 - ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "barTintColor"]
+- !private ["Ps8Hashable", "black"]
+- !private ["Ps8Hashable", "dark"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "keyboardAppearance"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "appearance"]
+- !private ["PSo8NSCoding", "barTintColor"]
+- !private ["PSo8NSCoding", "black"]
+- !private ["PSo8NSCoding", "keyboardAppearance"]
+- !private ["PSo9NSCopying", "black"]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UINavigationBar"]
+- !private ["CSo8NSObject", "UITextField"]
 - ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "appearance"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
 - ["CSo8NSObject", "applicationDidEnterBackground"]
@@ -148,8 +211,15 @@ depends-member:
 - ["CSo8NSObject", "applicationWillEnterForeground"]
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "barTintColor"]
+- !private ["CSo8NSObject", "black"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "keyboardAppearance"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UINavigationBar"]
+- !private ["PSo16NSObjectProtocol", "UITextField"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -162,9 +232,26 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "barTintColor"]
+- !private ["PSo16NSObjectProtocol", "black"]
 - !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "keyboardAppearance"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "black"]
+- !private ["Ps16RawRepresentable", "dark"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- !private ["PSo29UIAccessibilityIdentification", "barTintColor"]
+- !private ["PSo29UIAccessibilityIdentification", "keyboardAppearance"]
+- !private ["PSo12UIAppearance", "appearance"]
+- !private ["PSo12UIAppearance", "barTintColor"]
+- !private ["PSo12UIAppearance", "keyboardAppearance"]
+- !private ["PSo21UIAppearanceContainer", "appearance"]
+- !private ["PSo21UIAppearanceContainer", "barTintColor"]
+- !private ["PSo21UIAppearanceContainer", "keyboardAppearance"]
+- !private ["PSo21UIApplicationDelegate", "UIColor"]
+- !private ["PSo21UIApplicationDelegate", "UINavigationBar"]
+- !private ["PSo21UIApplicationDelegate", "UITextField"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -179,10 +266,38 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo16UIBarPositioning", "appearance"]
+- !private ["PSo16UIBarPositioning", "barTintColor"]
+- !private ["CSo7UIColor", "black"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "appearance"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "keyboardAppearance"]
+- !private ["CSo9UIControl", "appearance"]
+- !private ["CSo9UIControl", "keyboardAppearance"]
+- !private ["PSo17UICoordinateSpace", "appearance"]
+- !private ["PSo17UICoordinateSpace", "barTintColor"]
+- !private ["PSo17UICoordinateSpace", "keyboardAppearance"]
+- !private ["PSo13UIDynamicItem", "appearance"]
+- !private ["PSo13UIDynamicItem", "barTintColor"]
+- !private ["PSo13UIDynamicItem", "keyboardAppearance"]
+- !private ["PSo18UIFocusEnvironment", "appearance"]
+- !private ["PSo18UIFocusEnvironment", "barTintColor"]
+- !private ["PSo18UIFocusEnvironment", "keyboardAppearance"]
+- !private ["PSo11UIFocusItem", "appearance"]
+- !private ["PSo11UIFocusItem", "barTintColor"]
+- !private ["PSo11UIFocusItem", "keyboardAppearance"]
+- !private ["PSo10UIKeyInput", "appearance"]
+- !private ["PSo10UIKeyInput", "keyboardAppearance"]
+- !private ["OSC20UIKeyboardAppearance", "dark"]
+- !private ["CSo15UINavigationBar", "appearance"]
+- !private ["CSo15UINavigationBar", "barTintColor"]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UINavigationBar"]
+- !private ["CSo11UIResponder", "UITextField"]
 - ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "appearance"]
 - ["CSo11UIResponder", "application"]
 - ["CSo11UIResponder", "applicationDidBecomeActive"]
 - ["CSo11UIResponder", "applicationDidEnterBackground"]
@@ -195,9 +310,15 @@ depends-member:
 - ["CSo11UIResponder", "applicationWillEnterForeground"]
 - ["CSo11UIResponder", "applicationWillResignActive"]
 - ["CSo11UIResponder", "applicationWillTerminate"]
+- !private ["CSo11UIResponder", "barTintColor"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "keyboardAppearance"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UINavigationBar"]
+- !private ["PSo30UIResponderStandardEditActions", "UITextField"]
+- !private ["PSo30UIResponderStandardEditActions", "appearance"]
 - ["PSo30UIResponderStandardEditActions", "application"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
@@ -210,9 +331,31 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
 - ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "barTintColor"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "keyboardAppearance"]
 - ["PSo30UIResponderStandardEditActions", "window"]
 - ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo11UITextField", "appearance"]
+- !private ["CSo11UITextField", "keyboardAppearance"]
+- !private ["PSo11UITextInput", "appearance"]
+- !private ["PSo11UITextInput", "keyboardAppearance"]
+- !private ["PSo17UITextInputTraits", "appearance"]
+- !private ["PSo17UITextInputTraits", "keyboardAppearance"]
+- !private ["PSo18UITraitEnvironment", "appearance"]
+- !private ["PSo18UITraitEnvironment", "barTintColor"]
+- !private ["PSo18UITraitEnvironment", "keyboardAppearance"]
+- !private ["CSo6UIView", "appearance"]
+- !private ["CSo6UIView", "barTintColor"]
+- !private ["CSo6UIView", "keyboardAppearance"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "appearance"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "barTintColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "keyboardAppearance"]
+- !private ["Ps26_ExpressibleByColorLiteral", "black"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UINavigationBar"]
+- !private ["Ps9_Hashable", "UITextField"]
+- !private ["Ps9_Hashable", "appearance"]
 - ["Ps9_Hashable", "application"]
 - ["Ps9_Hashable", "applicationDidBecomeActive"]
 - ["Ps9_Hashable", "applicationDidEnterBackground"]
@@ -225,22 +368,52 @@ depends-member:
 - ["Ps9_Hashable", "applicationWillEnterForeground"]
 - ["Ps9_Hashable", "applicationWillResignActive"]
 - ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "barTintColor"]
+- !private ["Ps9_Hashable", "black"]
+- !private ["Ps9_Hashable", "dark"]
 - !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "keyboardAppearance"]
 - ["Ps9_Hashable", "window"]
 - ["Ps9_Hashable", ""]
 depends-nominal:
 - "Ps9AnyObject"
 - "C13tipCalculator11AppDelegate"
+- !private "PSo15CALayerDelegate"
 - "Ps7CVarArg"
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps16RawRepresentable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
 - "PSo21UIApplicationDelegate"
+- !private "PSo16UIBarPositioning"
+- !private "CSo7UIColor"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- !private "OSC20UIKeyboardAppearance"
+- !private "CSo15UINavigationBar"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps26_ExpressibleByColorLiteral"
 - "Ps9_Hashable"
 depends-dynamic-lookup:
 depends-external:

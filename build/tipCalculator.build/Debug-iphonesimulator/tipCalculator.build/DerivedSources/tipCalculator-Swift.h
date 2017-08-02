@@ -175,11 +175,12 @@ SWIFT_CLASS("_TtC13tipCalculator22SettingsViewController")
 
 SWIFT_CLASS("_TtC13tipCalculator17TipViewController")
 @interface TipViewController : UIViewController
-@property (nonatomic, readonly, strong) NSUserDefaults * _Nonnull userDefaults;
+@property (nonatomic, strong) NSUserDefaults * _Nonnull userDefaults;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified billField;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tipLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified totalLabel;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified tipControl;
+@property (nonatomic) BOOL useDefault;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
