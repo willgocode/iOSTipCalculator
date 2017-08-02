@@ -86,6 +86,7 @@ class TipViewController: UIViewController {
 
 		let numberFormatter = NumberFormatter()
 		numberFormatter.numberStyle = .currency
+		numberFormatter.locale = Locale.current
 		let tipAmount = numberFormatter.string(from: NSNumber(value: tip))
 		let totalAmount = numberFormatter.string(from: NSNumber(value: total))
 		let billAmount = numberFormatter.string(from: NSNumber(value: bill))
