@@ -26,8 +26,7 @@ class TipViewController: UIViewController {
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(true)
 		billField.becomeFirstResponder()
-		
-		/*
+/*
 		if let lastDate = userDefaults.object(forKey: "lastUpdated") {
 			print("Pulling")
 			var nextDate = lastDate as! Date
@@ -43,25 +42,18 @@ class TipViewController: UIViewController {
 			}
 			
 			if let lastTip = userDefaults.object(forKey: "savedTip") {
-				let convert = String(describing: lastTip)
-				print(convert)
-				
-				tipLabel.text = String(format: "$%.2f", convert)
+				tipLabel.text = lastTip as! String
 			}
 			
 			if let lastBill = userDefaults.object(forKey: "savedBill") {
-				let convert = String(describing: lastBill)
-				print(convert)
-				
-				billField.text = String(format: "%.2f", convert)
+				billField.text = lastBill as! String
 			}
 			
 			if let lastTotal = userDefaults.object(forKey: "savedTotal") {
-				let convert = String(describing: lastTotal)
-				print(convert)
-				totalLabel.text = String(format: "$%.2f", convert)
+				totalLabel.text = lastTotal as! String
 			}
-		}*/
+		}
+*/
 		calculateTip(self)
 	}
 

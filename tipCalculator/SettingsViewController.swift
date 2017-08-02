@@ -32,9 +32,11 @@ class SettingsViewController: UIViewController {
 	}
 
 	@IBAction func updateDefaults(_ sender: Any) {
-		if let tipPercent = tipField.text {
-			userDefaults.set(Double(tipPercent), forKey: "defaultTip")
-			userDefaults.synchronize()
+		if tipField.text != "" {
+			if let tipPercent = tipField.text {
+				userDefaults.set(Double(tipPercent), forKey: "defaultTip")
+				userDefaults.synchronize()
+			}
 		}
 	}
 	
