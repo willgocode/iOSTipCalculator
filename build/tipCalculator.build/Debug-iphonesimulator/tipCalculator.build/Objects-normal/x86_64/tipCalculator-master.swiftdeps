@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "85ffa7fe4dd227d518c54e63806f0c5b"
-build_time: [554950456, 645734000]
+build_time: [554951287, 337603000]
 inputs:
-  "/Users/william/Projects/iOSApps/iOSTipCalculator/tipCalculator/TipViewController.swift": [554950299, 0]
+  "/Users/william/Projects/iOSApps/iOSTipCalculator/tipCalculator/TipViewController.swift": [554951254, 0]
   "/Users/william/Projects/iOSApps/iOSTipCalculator/tipCalculator/AppDelegate.swift": [554942453, 0]
-  "/Users/william/Projects/iOSApps/iOSTipCalculator/tipCalculator/SettingsViewController.swift": [554950456, 0]
+  "/Users/william/Projects/iOSApps/iOSTipCalculator/tipCalculator/SettingsViewController.swift": [554950617, 0]
